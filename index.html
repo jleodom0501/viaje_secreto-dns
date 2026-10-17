@@ -1,0 +1,200 @@
+ 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El viaje secreto de una dirección web</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #eef5ff;
+      color: #172554;
+      line-height: 1.6;
+    }
+    header {
+      background: #172554;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 { font-size: 2.2em; }
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    section {
+      background: white;
+      padding: 22px;
+      margin: 20px 0;
+      border-radius: 14px;
+      box-shadow: 0 3px 10px #0001;
+    }
+    h2 { color: #2563eb; }
+    .paso {
+      border-left: 5px solid #3b82f6;
+      padding: 10px 15px;
+      margin: 15px 0;
+      background: #eff6ff;
+    }
+    .dato {
+      background: #dcfce7;
+      padding: 12px;
+      border-radius: 8px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #cbd5e1;
+      padding: 10px;
+      text-align: left;
+      overflow-wrap: anywhere;
+    }
+    th { background: #dbeafe; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #172554;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌐 El viaje secreto de una dirección web</h1>
+    <p>¿Qué ocurre cuando escribimos una dirección en Internet?</p>
+    <p>Proyecto de Digitalización · 4.º ESO</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>1. ¿Qué es el DNS?</h2>
+      <p>DNS significa Sistema de Nombres de Dominio.
+      Es un sistema que ayuda a encontrar la dirección IP
+      asociada a un nombre de dominio.</p>
+      <p>Funciona como una agenda: buscamos el nombre de una
+      web y el DNS nos ayuda a encontrar su dirección.</p>
+    </section>
+
+    <section>
+      <h2>2. ¿Por qué usamos nombres?</h2>
+      <p>Es más fácil recordar wikipedia.org que una serie
+      de números. Los ordenadores utilizan direcciones IP
+      para comunicarse a través de la red.</p>
+      <div class="dato">
+        <strong>Nombre:</strong> wikipedia.org<br>
+        <strong>IP:</strong> una dirección numérica que
+        debemos consultar.
+      </div>
+    </section>
+
+    <section>
+      <h2>3. El viaje para encontrar una IP</h2>
+      <div class="paso">
+        <strong>Paso 1.</strong> Escribimos una dirección web
+        en el navegador.
+      </div>
+      <div class="paso">
+        <strong>Paso 2.</strong> El ordenador comprueba si
+        ya conoce la IP y puede tenerla guardada en la caché.
+      </div>
+      <div class="paso">
+        <strong>Paso 3.</strong> Si necesita buscarla,
+        pregunta a un servidor DNS.
+      </div>
+      <div class="paso">
+        <strong>Paso 4.</strong> El DNS busca la información
+        necesaria y devuelve una dirección IP.
+      </div>
+      <div class="paso">
+        <strong>Paso 5.</strong> El navegador utiliza esa IP
+        para conectarse al servidor de la web.
+      </div>
+      <div class="paso">
+        <strong>Paso 6.</strong> El servidor responde y el
+        navegador muestra la página.
+      </div>
+    </section>
+
+    <section>
+      <h2>4. ¿Qué ocurre cuando tenemos la IP?</h2>
+      <p>El navegador ya puede intentar conectarse al servidor
+      correspondiente. Después se comunica con él y recibe
+      los datos necesarios para mostrar la página web.</p>
+      <p>Encontrar la IP es un paso del proceso: no significa
+      que la página se haya cargado automáticamente.</p>
+    </section>
+
+    <section>
+      <h2>5. La caché DNS y el TTL</h2>
+      <p><strong>Caché DNS:</strong> es una memoria temporal
+      que guarda respuestas DNS para evitar repetir algunas
+      búsquedas.</p>
+      <p><strong>TTL:</strong> significa tiempo de vida.
+      Indica cuánto tiempo puede conservarse una respuesta
+      DNS en caché antes de que deba actualizarse o volver
+      a consultarse según las reglas del sistema.</p>
+    </section>
+
+    <section>
+      <h2>6. ¿Una web puede tener varias IP?</h2>
+      <p>Sí. Una web puede tener varias direcciones IP.
+      Esto puede ayudar a repartir las conexiones, mejorar
+      la disponibilidad o utilizar servidores diferentes.</p>
+      <p>La dirección que recibimos puede variar según el
+      servicio, la ubicación y el momento de la consulta.</p>
+    </section>
+
+    <section>
+      <h2>7. Investigación: direcciones IP reales</h2>
+      <p>Tenemos que consultar las direcciones de estos
+      servicios y anotar los resultados reales.</p>
+      <table>
+        <tr>
+          <th>Servicio</th>
+          <th>Dominio</th>
+          <th>IP encontrada</th>
+        </tr>
+        <tr>
+          <td>Wikipedia</td>
+          <td>wikipedia.org</td>
+          <td>Pendiente de consultar</td>
+        </tr>
+        <tr>
+          <td>YouTube</td>
+          <td>youtube.com</td>
+          <td>Pendiente de consultar</td>
+        </tr>
+        <tr>
+          <td>Instagram</td>
+          <td>instagram.com</td>
+          <td>Pendiente de consultar</td>
+        </tr>
+        <tr>
+          <td>Amazon</td>
+          <td>amazon.com</td>
+          <td>Pendiente de consultar</td>
+        </tr>
+      </table>
+      <p>Importante: las IP se deben investigar y verificar.
+      No debemos inventar los resultados.</p>
+    </section>
+
+    <section>
+      <h2>8. Conclusión</h2>
+      <p>El DNS facilita el uso de Internet porque permite
+      encontrar direcciones IP a partir de nombres de dominio.
+      Gracias a este sistema podemos utilizar nombres fáciles
+      de recordar en vez de memorizar direcciones numéricas.</p>
+    </section>
+  </main>
+
+  <footer>
+    Proyecto de Digitalización · 4.º ESO
+  </footer>
+</body>
+</html>
